@@ -13,6 +13,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.red,
         accentColor: Color(0xFFFEF9EB),
+        cardColor: Colors.white,
+        secondaryHeaderColor: Colors.red
+      ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        secondaryHeaderColor: Colors.tealAccent,
+        cardColor: Colors.black,
+        
       ),
       home: HomeScreen(),
     );

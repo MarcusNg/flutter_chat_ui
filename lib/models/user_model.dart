@@ -4,8 +4,8 @@ class User {
   final String imageUrl;
 
   User({
-    this.id,
-    this.name,
-    this.imageUrl,
+    required this.id,
+    required this.name,
+    required this.imageUrl,
   });
 }

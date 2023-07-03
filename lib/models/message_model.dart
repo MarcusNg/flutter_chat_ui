@@ -9,11 +9,11 @@ class Message {
   final bool unread;
 
   Message({
-    this.sender,
-    this.time,
-    this.text,
-    this.isLiked,
-    this.unread,
+    required this.sender,
+    required this.time,
+    required this.text,
+    required this.isLiked,
+    required this.unread,
   });
 }
 
